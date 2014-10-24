@@ -1,22 +1,24 @@
 
-class Fehler {
+public class Fehler { // 1. "public" fehlte
 
-	Integer variable1
+	public Integer variable1; // 2. Semikolon
 	
-	Integer variable 2;
+	public Integer variable2; // 3. der Name des Attributs darf kein Leerzeichen enthalten 
 	
-	String variable3;
+	public String variable3;
 	
-	Boolean variable3;
+	public Boolean variable4; //4. Attribut darf nicht "variable3" heißen, weil schon eine Attribut als "variable3" deklariert wurde
 	
-	void methode1 {
+	
+	public void methode1() { // 5. die runden Klammern haben gefehlt
 		System.out.println("Methode 1 aufgerufen");
 	}
 	
-	void methode2() {
+	public void methode2() { 
 		System.out.println("Methode 2 aufgerufen");
-	
-	void methode3() {
+	} //6. schließende geschweifte Klammer fehlte
+		
+	public void methode3() { 
 		System.out.println("Methode 3 aufgerufen");
 	}
 	
