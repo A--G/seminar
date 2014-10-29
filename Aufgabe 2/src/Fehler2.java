@@ -1,17 +1,17 @@
 
-Fehler2 {
+public class Fehler2 { //10.
 	
-	void add Values(Integer a, b) {
-		Ineger summe = a + b
+	Integer addValues(Integer a, Integer b) { //5. 11. 12.
+		Integer summe = a + b; //1. 4.
 		return summe;
 	}
 	
-	void printString(String string) 
-		System.println(zeichenKette;
+	void printString(String string) { //3.
+		System.out.println(string); //2. 6. 7.
 	}
 	
-	void printNumber(Integer zahl Integer zahl) {
-		System.println('Summe von ' + zahl + ' und ' + zahl + ' ist: ' + zahl + zahl);
-	
+	void printNumber(Integer zahl1, Integer zahl2) { //9.
+		System.out.println("Summe von " + zahl1 + " und " + zahl2 + " ist: " + addValues(zahl1, zahl2));//8. 13.
+	} //14.
 	
 }
